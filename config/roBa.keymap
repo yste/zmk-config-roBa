@@ -36,6 +36,11 @@
             bindings = <&to_layer_0 SQT>;
             key-positions = <20 19>;
         };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
@@ -77,7 +82,7 @@
 &kp EXCLAMATION             &kp LS(AT_SIGN)  &kp HASH         &kp DOLLAR       &kp PERCENT                                              &kp CARET             &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp TILDE        &kp EQUAL        &kp APOS         &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &tog 0          &kp PIPE              &kp MINUS      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                  &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp COLON     &kp LEFT_BRACE        &kp RIGHT_BRACE
-&trans                      &trans           &trans           &trans           &trans        &trans                     &trans          &trans                                                                   &kp PIPE
+&trans                      &trans           &trans           &trans           &trans        &trans                     &trans          &trans                                                                   &trans
             >;
         };
 
